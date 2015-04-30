@@ -9,7 +9,7 @@ require('./server/config/handlebars')(app, config);
 
 require('./server/config/mongoose')(config);
 
-require('./server/config/routes')(app);
+require('./server/config/routes')(app, express);
 
 app.listen(config.port);
 console.log('listening on port' + config.port);
