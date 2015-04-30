@@ -1,6 +1,8 @@
 # backbone-express-mongoose-skeleton
-extremely minimal skeleton to use with express 4, backbone and mongoose. Doesn't include any tests or task runners. 
+This is an extremely minimal skeleton to use with express 4, backbone and mongoose. Doesn't include any tests or task runners, but does include a nice modular file structure to start with.
 
-Some basic models are included to show how they work. Users and basic encryption are included via the node encryption middleware.
+It uses handlebars for server-side templating but if you want its super easy to change it out with with something else.
 
-The structure of this application is pretty modular and nice which is why I made it. Thanks to [guyellis's MEAN repository](https://github.com/guyellis/MEANAppsFiles) for inspiration / great examples.
+Some basic models are included to show how they work if your a noob. Users and basic encryption are included via the node 'crypt' middleware.
+
+Thanks to [guyellis's MEAN repository](https://github.com/guyellis/MEANAppsFiles) for inspiration / great examples of modular structure.

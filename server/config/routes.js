@@ -7,11 +7,7 @@ module.exports = function(app, express){
   router.use(function(req, res, next) {
     next();
   });
-
-  router.get('/', function(req, res) {
-    res.json({ message: 'api is working' }); 
-  });
-
+  
   app.use('/api', router);
 
 };
