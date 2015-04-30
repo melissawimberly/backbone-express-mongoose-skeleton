@@ -1,10 +1,10 @@
 module.exports = function(app, express){
+
   var router        =   express.Router(),
-      userRoutes    =   require('../routes/users'),
-      calorieRoutes =   require('../routes/calories');
+      userRoutes    =   require('../routes/users')(router),
+      calorieRoutes =   require('../routes/calories')(router);
 
   router.use(function(req, res, next) {
-    // log stuff here u want
     next();
   });
 
